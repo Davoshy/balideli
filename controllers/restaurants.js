@@ -22,6 +22,14 @@ router.post("/", (req, res) => {
     });
 });
 
+router.patch("/:id", (req, res) => {
+  Restaurants.findByIdAndUpdate(req.params.id, req.body, { new: true }).then(
+    response => {
+      res.send(response);
+    }
+  );
+});
+
 // Created Route for single Restaurant
 router.get("/:id", (req, res) => {
   Restaurants.find({ _id: req.params.id })

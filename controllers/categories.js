@@ -21,4 +21,12 @@ router.post("/", (req, res) => {
     });
 });
 
+router.patch("/:id", (req, res) => {
+  Categories.findByIdAndUpdate(req.params.id, req.body, { new: true }).then(
+    response => {
+      res.send(response);
+    }
+  );
+});
+
 module.exports = router;
