@@ -14,6 +14,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   Restaurants.create(req.body)
     .then(response => {
+      console.log(response.body);
       res.send(response);
     })
     .catch(err => {

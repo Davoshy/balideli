@@ -1,6 +1,8 @@
 // Packages
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require("body-parser");
+
 require("dotenv").config();
 
 // Server
@@ -10,6 +12,8 @@ const mongoose = require("./database");
 
 // Middleware
 App.use(cors());
+App.use(bodyParser.urlencoded({ extended: false }));
+App.use(bodyParser.json());
 
 // Routes
 App.use("/restaurants", require("./controllers/restaurants"));
