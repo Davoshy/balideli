@@ -11,7 +11,9 @@ const mongoose = require("./database");
 App.use(cors());
 
 // Routes
-//App.use("/restaurants", require("./controllers/restaurants"));
+// App.use("/restaurants", require("./controllers/restaurants"));
+// App.use("/categories", require("./controllers/categories"));
+// App.use("/meals", require("./controllers/meals"));
 // example: app.use('/houses', require('./controllers/houses'))
 
 // Start Server

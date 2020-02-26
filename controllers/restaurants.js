@@ -7,4 +7,10 @@
 //   });
 // });
 //
+// router.post("/", (req, res) => {
+//   Restaurants.create(req.body).then(response => {
+//     res.send(response);
+//   });
+// });
+//
 // module.exports = router;
