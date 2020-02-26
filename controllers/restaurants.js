@@ -2,7 +2,7 @@ const Restaurants = require("../models/restaurants");
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-  Restaurants.find()
+  Restaurants.find({})
     .then(response => {
       res.send(response);
     })
@@ -14,6 +14,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   Restaurants.create(req.body)
     .then(response => {
+      console.log(response.body);
       res.send(response);
     })
     .catch(err => {
