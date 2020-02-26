@@ -24,6 +24,5 @@ module.exports = mongoose.model("restaurants", {
   image: {
     type: String
   },
-
   images: [String]
 });
