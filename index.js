@@ -11,7 +11,7 @@ const App = express();
 App.use(cors());
 
 // Routes
-// please add the routes here
+//App.use("/restaurants", require("./controllers/restaurants"));
 // example: app.use('/houses', require('./controllers/houses'))
 
 // Start Server
@@ -19,4 +19,4 @@ App.listen(process.env.PORT, () => {
   console.log(`Ready on port ${process.env.PORT}`);
 });
 
-module.exports = app;
+module.exports = App;
