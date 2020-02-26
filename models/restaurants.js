@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const ObjectId = mongoose.Schema.Types.ObjectId;
 require("./categories");
 
 module.exports = mongoose.model("restaurants", {
@@ -6,10 +7,12 @@ module.exports = mongoose.model("restaurants", {
     type: String,
     required: [true, "name is required"]
   },
-  category: {
-    type: ObjectId,
-    ref: "categories"
-  },
+  category: [
+    {
+      type: ObjectId,
+      ref: "categories"
+    }
+  ],
   deliveryTime: {
     type: Number,
     required: [true, "deliveryTime is required"]
