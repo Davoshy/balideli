@@ -3,6 +3,7 @@ const router = require("express").Router();
 
 router.get("/", (req, res) => {
   Restaurants.find({})
+    .populate("category")
     .then(response => {
       res.send(response);
     })
