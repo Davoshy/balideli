@@ -8,19 +8,15 @@ module.exports = mongoose.model("restaurants", {
   },
   category: {
     type: ObjectId,
-    ref: "types"
+    ref: "categories"
   },
   deliveryTime: {
     type: Number,
-    required: true
+    required: [true, "deliveryTime is required"]
   },
   likes: {
     type: Number,
     required: [true, "likes is required"]
   },
-  images: [String],
-  title: {
-    type: String,
-    required: [true, "title is required"]
-  }
+  images: [String]
 });
