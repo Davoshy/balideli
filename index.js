@@ -11,8 +11,9 @@ const App = express();
 App.use(cors());
 
 // Routes
-// please add the routes here
-// example: app.use('/houses', require('./controllers/houses'))
+App.use("/restaurants", require("./controllers/restaurants"));
+App.use("/categories", require("./controllers/categories"));
+App.use("/meals", require("./controllers/meals")); // example: app.use('/houses', require('./controllers/houses'))
 
 // Start Server
 App.listen(process.env.PORT, () => {
