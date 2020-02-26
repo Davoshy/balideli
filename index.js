@@ -2,6 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
+const bodyParser = require("body-parser");
 
 // Server
 const App = express();
@@ -10,6 +11,8 @@ const mongoose = require("./database");
 
 // Middleware
 App.use(cors());
+App.use(bodyParser.urlencoded({ extended: false }));
+App.use(bodyParser.json());
 
 // Routes
 App.use("/restaurants", require("./controllers/restaurants"));

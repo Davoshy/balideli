@@ -12,9 +12,10 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
+  console.log(req.body);
   Restaurants.create(req.body)
     .then(response => {
-      res.send(response);
+      res.send(response.data);
     })
     .catch(err => {
       res.send(err);

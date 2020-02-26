@@ -1,7 +1,7 @@
 [
   {
     "name": "Sarong",
-    "category": ["Seafood", "Asian", "Indian", "Thai"],
+    "categories": ["Seafood", "Asian", "Indian", "Thai"],
     "deliveryTime": 15,
     "likes": 508,
     "images": [
@@ -13,7 +13,7 @@
   },
   {
     "name": "Glass Brisge Restaurant",
-    "category": ["Asian", "Mediterranean", "Sushi"],
+    "categories": ["Asian", "Mediterranean", "Sushi"],
     "deliveryTime": 20,
     "likes": 132,
     "images": [
@@ -26,7 +26,7 @@
   },
   {
     "name": "Billy Ho",
-    "category": ["Japanese"],
+    "categories": ["Japanese"],
     "deliveryTime": 30,
     "likes": 653,
     "images": [
@@ -38,7 +38,7 @@
   },
   {
     "name": "Ours",
-    "category": ["Burgers", "Vegan"],
+    "categories": ["Burgers", "Vegan"],
     "deliveryTime": 35,
     "likes": 345,
     "images": [
@@ -50,7 +50,7 @@
   },
   {
     "name": "Chandi",
-    "category": ["Asian", "Cocktail Bar", "Seafood"],
+    "categories": ["Asian", "Cocktail Bar", "Seafood"],
     "deliveryTime": 40,
     "likes": 2181,
     "images": [
@@ -62,7 +62,7 @@
   },
   {
     "name": "Mama San",
-    "category": ["Asian", "Seafood"],
+    "categories": ["Asian", "Seafood"],
     "deliveryTime": 22,
     "likes": 12261,
     "images": [
