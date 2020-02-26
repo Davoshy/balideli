@@ -5,7 +5,7 @@ require("dotenv").config();
 
 // Server
 const App = express();
-// please import database.js file with mongoose connection here here
+const mongoose = require("./database");
 
 // Middleware
 App.use(cors());
@@ -19,4 +19,4 @@ App.listen(process.env.PORT, () => {
   console.log(`Ready on port ${process.env.PORT}`);
 });
 
-module.exports = app;
+module.exports = App;
