@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.connect(
-  process.env.MONGODB_URL,
+  `${process.env.MONGODB_URL}/Deliveroo`,
   { useNewUrlParser: true, useUnifiedTopology: true },
   err => {
     if (err) {

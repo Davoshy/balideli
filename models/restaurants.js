@@ -21,8 +21,9 @@ module.exports = mongoose.model("restaurants", {
     type: Number,
     required: [true, "likes is required"]
   },
-  images: [String],
   image: {
     type: String
-  }
+  },
+
+  images: [String]
 });

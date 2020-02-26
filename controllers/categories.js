@@ -2,7 +2,7 @@ const Categories = require("../models/categories");
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-  Categories.find()
+  Categories.find({})
     .then(response => {
       res.send(response);
     })
