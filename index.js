@@ -5,7 +5,7 @@ require("dotenv").config();
 
 // Server
 const App = express();
-const mongoose = require("./database");
+// please import database.js file with mongoose connection here here
 
 // Middleware
 App.use(cors());
@@ -13,8 +13,7 @@ App.use(cors());
 // Routes
 App.use("/restaurants", require("./controllers/restaurants"));
 App.use("/categories", require("./controllers/categories"));
-App.use("/meals", require("./controllers/meals"));
-// example: app.use('/houses', require('./controllers/houses'))
+App.use("/meals", require("./controllers/meals")); // example: app.use('/houses', require('./controllers/houses'))
 
 // Start Server
 App.listen(process.env.PORT, () => {

@@ -2,15 +2,23 @@ const Meals = require("../models/meals");
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-  Meals.find().then(response => {
-    res.send(response);
-  });
+  Meals.find()
+    .then(response => {
+      res.send(response);
+    })
+    .catch(err => {
+      res.send(err);
+    });
 });
 
 router.post("/", (req, res) => {
-  Meals.create(req.body).then(response => {
-    res.send(response);
-  });
+  Meals.create(req.body)
+    .then(response => {
+      res.send(response);
+    })
+    .catch(err => {
+      res.send(err);
+    });
 });
 
 module.exports = router;

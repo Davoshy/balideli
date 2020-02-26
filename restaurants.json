@@ -1,0 +1,80 @@
+//Restaurants Array
+
+[
+  {
+    "name": "Sarong",
+    "category": ["Seafood", "Asian", "Indian", "Thai"],
+    "deliveryTime": 15,
+    "likes": 508,
+    "images": [
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/a90c20d26a/SAR-Tuna-Betel-Leaf-02__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/46df67ab66/SAR-butter-chicken-SAR-DSC00374-Edit-HD__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/7b748f162c/SAR-Balinese-Dark-Chocolate-Tart-01__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/2e27d6fcd1/SAR-Signature-Crispy-Pork-Belly-04__CarouselPhotoW10.jpg"
+    ]
+  },
+  {
+    "name": "Glass Brisge Restaurant",
+    "category": ["Asian", "Mediterranean", "Sushi"],
+    "deliveryTime": 20,
+    "likes": 132,
+    "images": [
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/adb36a4d99/glassbridgebali_84719817_187298882357151_1776168845569595347_n__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/d60197f01a/glassbridgebali_67590257_2886019854754223_7947523569384855312_n__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/f8501ec246/glassbridgebali_74665253_2603204933103673_2223736766122784353_n__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/94e2aec53d/glassbridgebali_73505128_2346822142112049_5520590717495133667_n__CarouselPhotoW10.jpg"
+    ]
+  },
+  {
+    "name": "Billy Ho",
+    "category": ["Japanese"],
+    "deliveryTime": 30,
+    "likes": 653,
+    "images": [
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/be78c1735e/BHO-Chopped-Tuna-Bowl-DSCF1956-Edit-HD__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/3eac8eee8c/BHO-Glazed-Red-Miso-Gindara-DSC00895-Edit-HD__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/d928f19400/DSCF0176-Edit-HD__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/392ce3d5bd/BHO-Korean-Style-Crispy-Chicken-Wing-DSC00036-Edit-HD__CarouselPhotoW10.jpg"
+    ]
+  },
+  {
+    "name": "Ours",
+    "category": ["Burgers", "Vegan"],
+    "deliveryTime": 35,
+    "likes": 345,
+    "images": [
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/46bd338577/DSC02764__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/397e61ed5e/DSC02272__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/9b15d5d6ae/DSC02359__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/11f9ae579f/DSC02380__CarouselPhotoW10.jpg"
+    ]
+  },
+  {
+    "name": "Chandi",
+    "category": ["Asian", "Cocktail Bar", "Seafood"],
+    "deliveryTime": 40,
+    "likes": 2181,
+    "images": [
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/fb151c31e0/Ceremonial-Sate-2__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/ed5cecd7ef/Chandi-1__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/89c3166d44/IMG_20190206_112229__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/b52a8715aa/IMG_20190206_112504__CarouselPhotoW10.jpg"
+    ]
+  },
+  {
+    "name": "Mama San",
+    "category": ["Asian", "Seafood"],
+    "deliveryTime": 22,
+    "likes": 12261,
+    "images": [
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/27bb765154/MMS-Soft-Shell-Crab-Pad-Thai-06-1__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/5a84ad0dae/MMS-Khao-Moo-Dang-01__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/5f77d96c66/MMS-Dengdeng-Balado-03__CarouselPhotoW10.jpg",
+      "https://firsttable-images-1n1f2ybvzswiv.s3.us-west-2.amazonaws.com/public/restaurant/f0c958776b/MMS-Crispy-Chicken-Dumpling-04__CarouselPhotoW10.jpg"
+    ]
+  }
+][
+  ({ "name": "Asian", "color": "red" },
+  { "name": "Seafood", "color": "blue" },
+  { "name": "Burgers", "color": "orange" })
+]
