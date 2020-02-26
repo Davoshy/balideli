@@ -22,4 +22,16 @@ router.post("/", (req, res) => {
     });
 });
 
+// Created Route for single Restaurant
+router.get("/:id", (req, res) => {
+  Restaurants.find({ _id: req.params.id })
+    .populate("category")
+    .then(restaurant => {
+      res.send(restaurant[0]);
+    })
+    .catch(err => {
+      res.send(err);
+    });
+});
+
 module.exports = router;

@@ -1,7 +1,7 @@
 [
   {
     "name": "Sarong",
-    "categories": ["Seafood", "Asian", "Indian", "Thai"],
+    "category": ["Seafood", "Asian", "Indian", "Thai"],
     "deliveryTime": 15,
     "likes": 508,
     "images": [
@@ -13,7 +13,7 @@
   },
   {
     "name": "Glass Brisge Restaurant",
-    "categories": ["Asian", "Mediterranean", "Sushi"],
+    "category": ["Asian", "Mediterranean", "Sushi"],
     "deliveryTime": 20,
     "likes": 132,
     "images": [
@@ -26,7 +26,7 @@
   },
   {
     "name": "Billy Ho",
-    "categories": ["Japanese"],
+    "category": ["Japanese"],
     "deliveryTime": 30,
     "likes": 653,
     "images": [
@@ -38,7 +38,7 @@
   },
   {
     "name": "Ours",
-    "categories": ["Burgers", "Vegan"],
+    "category": ["Burgers", "Vegan"],
     "deliveryTime": 35,
     "likes": 345,
     "images": [
@@ -50,7 +50,7 @@
   },
   {
     "name": "Chandi",
-    "categories": ["Asian", "Cocktail Bar", "Seafood"],
+    "category": ["Asian", "Cocktail Bar", "Seafood"],
     "deliveryTime": 40,
     "likes": 2181,
     "images": [
@@ -62,7 +62,7 @@
   },
   {
     "name": "Mama San",
-    "categories": ["Asian", "Seafood"],
+    "category": ["Asian", "Seafood"],
     "deliveryTime": 22,
     "likes": 12261,
     "images": [
@@ -77,3 +77,8 @@
   { "name": "Seafood", "color": "blue" },
   { "name": "Burgers", "color": "orange" })
 ]
+
+
+Sarong {"Small Plates": ["Tuna Betel Leaf(55k)", "Aloo Tandoori(75k)"],
+"Large Plates": ["Pad Ped Pla 145k", "Steamed Fish 180k"],
+"Sides": ["Rice", "Egg Hopper"]}

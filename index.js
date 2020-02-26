@@ -1,8 +1,9 @@
 // Packages
 const express = require("express");
 const cors = require("cors");
-require("dotenv").config();
 const bodyParser = require("body-parser");
+
+require("dotenv").config();
 
 // Server
 const App = express();

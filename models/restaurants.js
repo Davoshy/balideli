@@ -7,7 +7,7 @@ module.exports = mongoose.model("restaurants", {
     type: String,
     required: [true, "name is required"]
   },
-  categories: [
+  category: [
     {
       type: ObjectId,
       ref: "categories"

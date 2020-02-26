@@ -12,7 +12,7 @@ module.exports = mongoose.model("meals", {
     required: [true, "price is required"]
   },
   group: {
-    type: Number,
+    type: String,
     required: [true, "group is required"]
   },
   restaurant: {
