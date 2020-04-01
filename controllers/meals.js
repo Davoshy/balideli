@@ -30,4 +30,15 @@ router.patch("/:id", (req, res) => {
   );
 });
 
+// Getting meals from a specific restaurant
+router.get("/:id", (req, res) => {
+  Meals.find({ restaurant: req.params.id })
+    .then(response => {
+      res.send(response);
+    })
+    .catch(err => {
+      res.send(err);
+    });
+});
+
 module.exports = router;
